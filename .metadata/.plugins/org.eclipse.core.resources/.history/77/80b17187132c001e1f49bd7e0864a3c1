@@ -1,0 +1,19 @@
+package poo;
+
+public class Turma {
+
+	public Aluno[] alunos = new Aluno[8];
+	
+	public Turma(Aluno[] alunos) {
+		if(alunos.length != 8) {
+			throw new IllegalArgumentException("Uma turma deve conter 8 alunos");
+		}
+		this.alunos = alunos;
+	}
+	public Aluno[] getAluno() {
+		return alunos;
+	}
+
+
+}
+

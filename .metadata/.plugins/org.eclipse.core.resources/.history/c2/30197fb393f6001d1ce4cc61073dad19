@@ -1,0 +1,18 @@
+
+public class Bike {
+	private int Velocidade = 0;
+	private int Marcha = 1;
+	
+	public void AumentarVelocidade(int Aumento) {
+		Velocidade = Velocidade + Aumento;
+	}
+	public void DiminuirVelocidade(int Diminuicao) {
+		Velocidade = Velocidade + Diminuicao;
+	}
+	public void MudarMarcha(int NovaMarcha) {
+		Marcha = NovaMarcha;
+	}
+	public void ImprimirEstados() {
+		System.out.println("Velocidade: "+Velocidade+ " Marcha: "+Marcha);
+	}
+}

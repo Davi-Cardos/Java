@@ -1,0 +1,14 @@
+
+public class Retangulo extends Forma{
+	private double largura;
+	private double comprimento;
+	
+	protected double CalcArea(double largura, double comprimento) {
+		
+		return largura * comprimento;
+	}
+	protected double Perimetro(double largura, double comprimento) {
+		double soma = largura + comprimento;
+		return soma * 2;
+	}
+}

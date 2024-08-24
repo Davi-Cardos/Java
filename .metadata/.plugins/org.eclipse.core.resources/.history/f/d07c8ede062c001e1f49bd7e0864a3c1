@@ -1,0 +1,8 @@
+package poo;
+
+public class Main {
+	public static void main(String[] args) {
+	int resultado = 0;
+	resultado = 1/0;
+	System.out.println(resultado);
+}}

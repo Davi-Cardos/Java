@@ -1,0 +1,9 @@
+
+public class Termino {
+	public static void main(String[] args) {
+	    public ImprimirCachorro(int qtd, String nome, String raca) {
+			System.out.println("o nome do meu cachorro eh"+nome+" Tenho"+qtd+" ele eh um"+raca);
+		}
+	}
+}
+		

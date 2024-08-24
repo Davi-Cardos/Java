@@ -1,0 +1,17 @@
+package poo;
+
+public class Main {
+	public static void main(String[] args) {
+	try{
+		int resultado = 0;
+	resultado = 1/0;
+	System.out.println(resultado);
+}
+catch(ArithmeticException resultado) {
+	System.out.println("Não eh possivel realizar essa operação");
+}
+	finally {
+		System.out.println("Fechando calc");
+	}
+	}
+}

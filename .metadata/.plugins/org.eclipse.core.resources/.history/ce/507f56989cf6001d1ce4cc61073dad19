@@ -1,0 +1,9 @@
+
+public class Main {
+		public static void main(String[] args) {
+			Cachorro Rex; 
+			Rex = new Cachorro("Rex", 1, "Pastor Alemao");
+			
+			System.out.println(Rex.getNome, Rex.getquantidade, Rex.getraca);
+			
+	}

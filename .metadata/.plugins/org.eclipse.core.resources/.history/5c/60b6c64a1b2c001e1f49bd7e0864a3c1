@@ -1,0 +1,25 @@
+package poo;
+
+import java.util.ArrayList;
+
+public class Turma {
+
+	public Aluno[] alunos = new Aluno[8];
+	ArrayList<Tema>temasDisponiveis = new ArrayList<Tema>();
+	
+	public Turma(Aluno[] alunos) throws MinhaExcessao {
+
+		this.alunos = alunos;
+		for(Tema tema: temasDisponiveis) {
+			temasDisponiveis.add(tema);
+			temasDisponiveis.add(tema);
+
+		}
+	}
+	public Aluno[] getAlunos() {
+		return alunos;
+	}
+	public void setAlunos(Aluno[] alunos) {
+		this.alunos = alunos;
+	}
+	}

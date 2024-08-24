@@ -1,0 +1,7 @@
+
+public class main {
+	public static void main(String[] args) {
+		ImprimirCachorro(1, "Rex", "Pastor Alemao");
+		
+	}
+}

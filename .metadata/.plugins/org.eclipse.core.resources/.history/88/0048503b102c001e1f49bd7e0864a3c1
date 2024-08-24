@@ -1,0 +1,5 @@
+package poo;
+
+public class Turma {
+	private ArrayList <Aluno>alunos = new ArrayList<Aluno>();
+}

@@ -1,0 +1,32 @@
+package poo;
+
+import java.util.ArrayList;
+
+public class Turma {
+
+	public Aluno[] alunos = new Aluno[8];
+	ArrayList<Tema>temas = new ArrayList<Tema>();
+	
+
+
+
+	
+	public Turma(Aluno[] alunos, Tema temas) throws MinhaExcessao {
+		if(alunos.length != 8) {
+			throw new MinhaExcessao("Uma turma deve conter 8 alunos");
+		}
+		
+		this.alunos = alunos;
+		for(Tema tema: temas) {
+			temas.add(tema);
+			temas.add(tema);
+
+		}
+	}
+	public Aluno[] getAluno() {
+		return alunos;
+	}
+
+
+}
+

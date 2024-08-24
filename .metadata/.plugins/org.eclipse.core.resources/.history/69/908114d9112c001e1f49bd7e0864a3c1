@@ -1,0 +1,22 @@
+package poo;
+
+import java.util.ArrayList;
+
+public class Turma {
+	private ArrayList<Aluno> alunos = new ArrayList<Aluno>();
+	
+	public Turma(){
+		if(alunos.size() != 8) {
+			throw new IllegalArgumentException("Uma turma tem q ter 8 alunos genio");
+		}
+		this.alunos = alunos;
+	}
+
+	public ArrayList<Aluno> getAlunos() {
+		return alunos;
+	}
+
+	public void setAlunos(ArrayList<Aluno> alunos) {
+		this.alunos = alunos;
+	}
+}

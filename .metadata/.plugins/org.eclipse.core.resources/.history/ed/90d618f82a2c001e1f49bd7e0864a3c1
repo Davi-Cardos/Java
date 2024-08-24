@@ -1,0 +1,9 @@
+
+public abstract class Forma {
+	
+	protected abstract double CalcArea(double a, double b);
+	
+	protected abstract double Perimetro();
+	
+	protected abstract void Imprimir();
+}

@@ -1,0 +1,24 @@
+
+public class Elipse extends Forma{
+	private double a, b;
+
+
+	@Override
+	protected double CalcArea() {
+		
+		return Math.PI * (Math.sqrt(2*((a * a) + (b*b)) - ((a - b) * (a - b))/2));
+	}
+
+	@Override
+	protected double Perimetro() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	protected void Imprimir() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

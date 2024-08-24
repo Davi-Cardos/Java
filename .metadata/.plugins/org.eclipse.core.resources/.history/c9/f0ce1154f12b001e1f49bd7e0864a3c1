@@ -1,0 +1,7 @@
+package poo;
+
+public class Bruno {
+	protected void Vaiateafacul(){
+		System.out.println("DE CARRO HONDA SIVIC 2022");
+	}
+}

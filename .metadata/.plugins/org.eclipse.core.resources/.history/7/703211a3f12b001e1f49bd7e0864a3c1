@@ -1,0 +1,8 @@
+package poo;
+
+public class Bruno extends Professor{
+	protected void Vaiateafacul(){
+		System.out.println("DE CARRO HONDA SIVIC 2022");
+	}
+	
+}

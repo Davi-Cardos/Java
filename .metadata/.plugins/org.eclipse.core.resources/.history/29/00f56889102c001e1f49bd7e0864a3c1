@@ -1,0 +1,9 @@
+package poo;
+
+public class Professor {
+	private String nome;
+	
+	public void	Ensino(){
+			System.out.println("Ensinando");
+		}
+}

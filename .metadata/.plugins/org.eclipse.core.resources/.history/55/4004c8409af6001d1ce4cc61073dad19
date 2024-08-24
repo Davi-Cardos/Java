@@ -1,0 +1,12 @@
+
+public class Main {
+		public static void main(String[] args) {
+			Cachorro Rex; 
+			Rex = new Cachorro();
+			Rex.setNome("Rex");
+			Rex.setquantidade(1);
+			Rex.setraca(" Pastor Alemao");
+			Rex.ImprimirCachorro();
+		}
+
+	}

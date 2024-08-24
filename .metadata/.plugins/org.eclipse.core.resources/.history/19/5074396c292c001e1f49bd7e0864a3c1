@@ -1,0 +1,21 @@
+package poo;
+
+public class Main {
+	public void Metodoa() {
+		Metodob();
+		System.out.println("A");
+	}
+	public void Metodob() {
+		Metodoc();
+		System.out.println("B");
+	}
+	public void Metodoc() {
+		Metodoa();
+		System.out.println("C");
+	}
+	public static void main(String[] args) {
+	 
+		Main a = new Main();
+		a.Metodoa();
+	}
+}

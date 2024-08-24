@@ -1,0 +1,6 @@
+
+public class Termino {
+	public static void main(String[] args) {
+		Cachorro.ImprimirCachorro(String nome, int qtd, String raca);
+	}
+}

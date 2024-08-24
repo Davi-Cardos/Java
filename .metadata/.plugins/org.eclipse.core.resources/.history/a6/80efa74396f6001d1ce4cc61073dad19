@@ -1,0 +1,22 @@
+
+/*public class Cachorro {
+	private String Nome;
+		public void setNome(String nome) {
+			this.Nome = nome;
+		}
+		public void late() {
+			System.out.println(Nome + " AUAUAUAUAUAUAUAUUAAUAU");
+		}
+		public static void main(String[] args) {
+			Cachorro bingo;
+			bingo = new Cachorro();
+			bingo.setNome("Bingo");
+			bingo.late();
+			
+			Cachorro Rex = new Cachorro();
+			Rex.setNome("Rex");
+			Rex.late();
+		}
+		}
+	
+*/

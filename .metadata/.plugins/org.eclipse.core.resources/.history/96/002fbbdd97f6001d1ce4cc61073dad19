@@ -1,0 +1,7 @@
+
+public class main {
+	public static void main(String[] args) {
+		public ImprimirCachorro(int qtd, String nome, String raca);
+		
+	}
+}

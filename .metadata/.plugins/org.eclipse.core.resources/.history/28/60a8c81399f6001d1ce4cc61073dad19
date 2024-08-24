@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class Cachorro {
+	public String Nome;
+	public int quantidade;
+	public String raca;
+	
+	public String getNome() {
+		return Nome;
+	}
+	public void setNome(String nome) {
+		Nome = nome;
+	}
+	public int getquantidade() {
+		return quantidade;
+	}
+	public void setquantidade(int qtd) {
+		quantidade = qtd;
+	}
+	public String getraca() {
+		return raca;
+	}
+	public void setraca(String r) {
+		raca = r;
+	}
+	
+	public void AdicionarCachorro(int qtd, String nome, String raca) {
+		Cachorro Rex; 
+		Rex = new Cachorro();
+		Rex.setNome("Rex");
+		Rex.setquantidade(1);
+		Rex.setraca(" Pastor Alemao");
+	}
+	public void ImprimirCachorro(int qtd, String nome, String raca) {
+		System.out.println("o nome do meu cachorro eh"+nome+" Tenho"+qtd+" ele eh um"+raca);
+	}
+}
+	
+
+	
+	
+	

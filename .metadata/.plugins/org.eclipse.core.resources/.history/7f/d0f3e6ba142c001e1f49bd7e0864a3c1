@@ -1,0 +1,23 @@
+package poo;
+
+public class Aluno {
+	public Aluno(String nome, Tema tema) {
+		this.nome = nome;
+		this.temas = tema;
+	}
+	private String nome;
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public Tema getTemas() {
+		return temas;
+	}
+	public void setTemas(Tema temas) {
+		this.temas = temas;
+	}
+	public Tema temas;
+	
+}

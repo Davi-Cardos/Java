@@ -1,0 +1,26 @@
+package poo;
+
+import java.util.ArrayList;
+
+public class Turma {
+
+	public Aluno[] alunos = new Aluno[8];
+	ArrayList<Tema>temas = new ArrayList<Tema>();
+	
+	public Turma(Aluno[] alunos Tema temas) {
+		if(alunos.length != 8) {
+			throw new IllegalArgumentException("Uma turma deve conter 8 alunos");
+		}
+		if(temas.size() != 2) {
+			throw new IllegalArgumentException("Tem q ter 2 valores");
+		}
+		this.alunos = alunos;
+		this.temas = temas;
+	}
+	public Aluno[] getAluno() {
+		return alunos;
+	}
+
+
+}
+

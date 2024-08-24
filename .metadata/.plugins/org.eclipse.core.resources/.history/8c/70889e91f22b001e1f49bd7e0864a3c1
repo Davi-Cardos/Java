@@ -1,0 +1,12 @@
+package poo;
+
+public class Professor {
+		protected void CorrigeProvas() {
+			System.out.println("CorrigindoProva");
+		}
+		protected void Vaiateafacul(String a) {
+			if(a == Posner) {
+				System.out.println("De Busao");
+			}
+		}
+}

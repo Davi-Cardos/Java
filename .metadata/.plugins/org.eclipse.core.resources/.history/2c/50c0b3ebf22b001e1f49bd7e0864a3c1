@@ -1,0 +1,12 @@
+package poo;
+
+public class Main {
+	public static void main(String[] args) {
+		Professor pessoa1 = new Professor();
+		pessoa1.Vaiateafacul("Bruno");
+		pessoa1.CorrigeProvas();
+		pessoa1.CorrigeProvas("Davi");
+		pessoa1.CorrigeProvas("Max");
+
+	}
+}

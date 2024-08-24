@@ -1,0 +1,10 @@
+package poo;
+
+public class Turma {
+
+	public Aluno[] alunos = new Aluno[8];
+	
+
+
+}
+

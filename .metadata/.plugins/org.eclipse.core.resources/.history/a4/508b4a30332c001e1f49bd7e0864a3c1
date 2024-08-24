@@ -1,0 +1,18 @@
+
+public class Quadrado extends Retangulo{
+	public Quadrado(double a ,double b) {
+		super(a, b);
+	}
+    @Override
+    protected double calculaArea() {
+
+        return largura * largura;
+    }
+
+    @Override
+    protected double calculaPerimetro() {
+
+        return (largura + largura) * 2;
+    }
+
+}

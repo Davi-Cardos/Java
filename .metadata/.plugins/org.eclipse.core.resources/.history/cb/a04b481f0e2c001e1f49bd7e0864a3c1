@@ -1,0 +1,17 @@
+package poo;
+
+public class Bruno extends Professor{
+	protected void Vaiateafacul(){
+		System.out.println("DE CARRO HONDA SIVIC 2022");
+	}
+	protected void CorrigeProvas(String a) {
+		System.out.println("Corrigindo Prova de " + a);
+		if(a == "Davi") {
+			System.out.println("Eh melhor Recuperar na p2");
+		}
+		if(a == "Max") {
+			System.out.println("10 né meu mano");
+		}
+	}
+	
+}
